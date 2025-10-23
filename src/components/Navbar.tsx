@@ -32,6 +32,9 @@ const Navbar = () => {
             <Link to="/" className="text-foreground hover:text-primary transition-colors">
               Home
             </Link>
+            <Link to="/swap" className="text-foreground hover:text-primary transition-colors">
+              Swap
+            </Link>
             <Link to="/awareness" className="text-foreground hover:text-primary transition-colors">
               Learn
             </Link>
@@ -89,6 +92,13 @@ const Navbar = () => {
                 className="px-4 py-2 hover:bg-muted rounded-lg transition-colors"
               >
                 Home
+              </Link>
+              <Link
+                to="/swap"
+                onClick={() => setIsMenuOpen(false)}
+                className="px-4 py-2 hover:bg-muted rounded-lg transition-colors"
+              >
+                Swap
               </Link>
               <Link
                 to="/awareness"
