@@ -24,79 +24,10 @@ const Index = () => {
     <div className="min-h-screen">
       <Navbar />
       
-      {/* Hero Section */}
-      <section className="relative pt-32 pb-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-hero opacity-10"></div>
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-4xl mx-auto text-center animate-fade-in-up">
-            <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full mb-6">
-              <Leaf className="w-4 h-4" />
-              <span className="text-sm font-medium">Sustainable E-Waste Management</span>
-            </div>
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              Turn Your Old <span className="text-gradient-primary">Gadgets</span> Into Rewards
-            </h1>
-            <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Join Triple G and help create a circular economy. Submit your e-waste, earn rewards, and contribute to a sustainable future.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button 
-                size="lg" 
-                className="bg-gradient-primary hover:opacity-90 text-lg h-14 px-8 shadow-primary"
-                onClick={() => navigate("/submit-gadget")}
-              >
-                <Smartphone className="w-5 h-5 mr-2" />
-                Submit Gadget
-              </Button>
-              <Button 
-                size="lg" 
-                variant="outline" 
-                className="text-lg h-14 px-8"
-                onClick={() => navigate("/awareness")}
-              >
-                Learn More
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
+      <HeroSection />
 
       {/* Stats Section */}
-      <section className="py-16 bg-muted">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card className="p-8 text-center shadow-card hover:shadow-primary transition-shadow">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Recycle className="w-8 h-8 text-primary" />
-              </div>
-              <div className="text-4xl font-bold text-primary mb-2">
-                <AnimatedCounter end={15420} suffix="+" />
-              </div>
-              <p className="text-muted-foreground">Gadgets Recycled</p>
-            </Card>
-            
-            <Card className="p-8 text-center shadow-card hover:shadow-primary transition-shadow">
-              <div className="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Award className="w-8 h-8 text-secondary" />
-              </div>
-              <div className="text-4xl font-bold text-secondary mb-2">
-                <AnimatedCounter end={98500} suffix="+" />
-              </div>
-              <p className="text-muted-foreground">Credits Earned</p>
-            </Card>
-            
-            <Card className="p-8 text-center shadow-card hover:shadow-primary transition-shadow">
-              <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Users className="w-8 h-8 text-accent" />
-              </div>
-              <div className="text-4xl font-bold text-accent mb-2">
-                <AnimatedCounter end={5230} suffix="+" />
-              </div>
-              <p className="text-muted-foreground">Active Users</p>
-            </Card>
-          </div>
-        </div>
-      </section>
+      <StatsSection />
 
       {/* How It Works */}
       <section className="py-20">
