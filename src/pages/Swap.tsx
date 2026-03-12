@@ -228,12 +228,7 @@ const ProductCard = ({
       {hovered && (
         <motion.div
           className="absolute inset-0 rounded-2xl pointer-events-none z-10 opacity-20"
-          style={{
-            background: useTransform(
-              [lightX, lightY],
-              ([lx, ly]) => `radial-gradient(circle at ${lx}% ${ly}%, hsl(160 84% 39% / 0.3), transparent 60%)`
-            ),
-          }}
+          style={{ background: lightGradient }}
         />
       )}
 
