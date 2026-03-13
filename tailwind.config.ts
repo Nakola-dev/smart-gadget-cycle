@@ -92,6 +92,22 @@ export default {
           "0%, 100%": { transform: "translateY(0px)" },
           "50%": { transform: "translateY(-20px)" },
         },
+        "ripple-spread": {
+          "0%": { transform: "scale(0)", opacity: "0.6" },
+          "100%": { transform: "scale(4)", opacity: "0" },
+        },
+        "shake": {
+          "0%, 100%": { transform: "translateX(0)" },
+          "10%, 30%, 50%, 70%, 90%": { transform: "translateX(-4px)" },
+          "20%, 40%, 60%, 80%": { transform: "translateX(4px)" },
+        },
+        "morph-spinner": {
+          "0%": { borderRadius: "50%", transform: "rotate(0deg)" },
+          "25%": { borderRadius: "30% 70% 70% 30% / 30% 30% 70% 70%" },
+          "50%": { borderRadius: "50%", transform: "rotate(180deg)" },
+          "75%": { borderRadius: "70% 30% 30% 70% / 70% 70% 30% 30%" },
+          "100%": { borderRadius: "50%", transform: "rotate(360deg)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
