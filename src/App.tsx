@@ -10,6 +10,8 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import Admin from "./pages/Admin";
+import AdminProfile from "./pages/AdminProfile";
+import AdminSettings from "./pages/AdminSettings";
 import SubmitGadget from "./pages/SubmitGadget";
 import Swap from "./pages/Swap";
 import Awareness from "./pages/Awareness";
@@ -42,6 +44,8 @@ const App = () => (
           <Route path="/register" element={<Register />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/admin" element={<Admin />} />
+          <Route path="/admin/profile" element={<AdminProfile />} />
+          <Route path="/admin/settings" element={<AdminSettings />} />
           <Route path="/submit-gadget" element={<SubmitGadget />} />
           <Route path="/swap" element={<Swap />} />
           <Route path="/awareness" element={<Awareness />} />
