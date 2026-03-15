@@ -10,6 +10,8 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import Admin from "./pages/Admin";
+import AdminProfile from "./pages/AdminProfile";
+import AdminSettings from "./pages/AdminSettings";
 import SubmitGadget from "./pages/SubmitGadget";
 import Swap from "./pages/Swap";
 import Awareness from "./pages/Awareness";

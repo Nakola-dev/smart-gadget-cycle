@@ -13,7 +13,7 @@ import { Badge } from "@/components/ui/badge";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-  User, Camera, Shield, Bell, Key, Palette, UsersRound,
+  User, Users, Camera, Shield, Bell, Key, Palette, UsersRound,
   Mail, Phone, MapPin, Globe, Github, Twitter, Linkedin,
   Lock, Eye, EyeOff, Smartphone, Monitor, LogOut, Clock,
   Check, X, Copy, RefreshCw, Sun, Moon, Minus, Plus,
