@@ -12,6 +12,14 @@ import Dashboard from "./pages/Dashboard";
 import Admin from "./pages/Admin";
 import AdminProfile from "./pages/AdminProfile";
 import AdminSettings from "./pages/AdminSettings";
+import AdminAnalytics from "./pages/AdminAnalytics";
+import AdminReports from "./pages/AdminReports";
+import AdminUsers from "./pages/AdminUsers";
+import AdminGadgets from "./pages/AdminGadgets";
+import AdminTransactions from "./pages/AdminTransactions";
+import AdminOrders from "./pages/AdminOrders";
+import AdminTickets from "./pages/AdminTickets";
+import AdminFeedback from "./pages/AdminFeedback";
 import SubmitGadget from "./pages/SubmitGadget";
 import Swap from "./pages/Swap";
 import Awareness from "./pages/Awareness";
@@ -46,6 +54,14 @@ const App = () => (
           <Route path="/admin" element={<Admin />} />
           <Route path="/admin/profile" element={<AdminProfile />} />
           <Route path="/admin/settings" element={<AdminSettings />} />
+          <Route path="/admin/analytics" element={<AdminAnalytics />} />
+          <Route path="/admin/reports" element={<AdminReports />} />
+          <Route path="/admin/users" element={<AdminUsers />} />
+          <Route path="/admin/gadgets" element={<AdminGadgets />} />
+          <Route path="/admin/transactions" element={<AdminTransactions />} />
+          <Route path="/admin/orders" element={<AdminOrders />} />
+          <Route path="/admin/tickets" element={<AdminTickets />} />
+          <Route path="/admin/feedback" element={<AdminFeedback />} />
           <Route path="/submit-gadget" element={<SubmitGadget />} />
           <Route path="/swap" element={<Swap />} />
           <Route path="/awareness" element={<Awareness />} />
