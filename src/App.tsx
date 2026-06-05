@@ -20,6 +20,8 @@ import AdminTransactions from "./pages/AdminTransactions";
 import AdminOrders from "./pages/AdminOrders";
 import AdminTickets from "./pages/AdminTickets";
 import AdminFeedback from "./pages/AdminFeedback";
+import AdminArticles from "./pages/AdminArticles";
+import AdminSwaps from "./pages/AdminSwaps";
 import SubmitGadget from "./pages/SubmitGadget";
 import Swap from "./pages/Swap";
 import Awareness from "./pages/Awareness";
@@ -62,6 +64,8 @@ const App = () => (
           <Route path="/admin/orders" element={<AdminOrders />} />
           <Route path="/admin/tickets" element={<AdminTickets />} />
           <Route path="/admin/feedback" element={<AdminFeedback />} />
+          <Route path="/admin/articles" element={<AdminArticles />} />
+          <Route path="/admin/swaps" element={<AdminSwaps />} />
           <Route path="/submit-gadget" element={<SubmitGadget />} />
           <Route path="/swap" element={<Swap />} />
           <Route path="/awareness" element={<Awareness />} />
