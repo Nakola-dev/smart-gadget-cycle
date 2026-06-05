@@ -15,7 +15,7 @@ import {
   FileText, Plus, Search, Edit, Trash2, Eye, TrendingUp, Clock,
   CheckCircle2, FileEdit, Archive, Calendar, Tag,
 } from "lucide-react";
-import { useAwareness, ContentItem } from "@/contexts/AwarenessContext";
+import { useAwareness, ContentItem, AwarenessProvider } from "@/contexts/AwarenessContext";
 import { toast } from "sonner";
 
 const CATEGORIES = [
@@ -258,4 +258,11 @@ const AdminArticles = () => {
   );
 };
 
-export default AdminArticles;
+export default function AdminArticlesPage() {
+  return (
+    <AwarenessProvider>
+      <AdminArticles />
+    </AwarenessProvider>
+  );
+}
+
