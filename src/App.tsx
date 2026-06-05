@@ -22,6 +22,10 @@ import AdminTickets from "./pages/AdminTickets";
 import AdminFeedback from "./pages/AdminFeedback";
 import AdminArticles from "./pages/AdminArticles";
 import AdminSwaps from "./pages/AdminSwaps";
+import AdminPayouts from "./pages/AdminPayouts";
+import AdminSecurity from "./pages/AdminSecurity";
+import AdminTeam from "./pages/AdminTeam";
+import AdminAnnouncements from "./pages/AdminAnnouncements";
 import SubmitGadget from "./pages/SubmitGadget";
 import Swap from "./pages/Swap";
 import Awareness from "./pages/Awareness";
@@ -66,6 +70,10 @@ const App = () => (
           <Route path="/admin/feedback" element={<AdminFeedback />} />
           <Route path="/admin/articles" element={<AdminArticles />} />
           <Route path="/admin/swaps" element={<AdminSwaps />} />
+          <Route path="/admin/payouts" element={<AdminPayouts />} />
+          <Route path="/admin/security" element={<AdminSecurity />} />
+          <Route path="/admin/team" element={<AdminTeam />} />
+          <Route path="/admin/announcements" element={<AdminAnnouncements />} />
           <Route path="/submit-gadget" element={<SubmitGadget />} />
           <Route path="/swap" element={<Swap />} />
           <Route path="/awareness" element={<Awareness />} />
