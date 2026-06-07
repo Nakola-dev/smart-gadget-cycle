@@ -218,6 +218,8 @@ const Navbar = () => {
               <motion.button
                 whileTap={{ scale: 0.9 }}
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
+                aria-label={isMenuOpen ? "Close navigation menu" : "Open navigation menu"}
+                aria-expanded={isMenuOpen}
                 className="md:hidden p-2 rounded-lg glass-hover"
               >
                 <AnimatePresence mode="wait">

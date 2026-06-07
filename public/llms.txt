@@ -1,0 +1,14 @@
+# Triple G
+
+> Smart e-waste management platform that turns old gadgets into cash, carbon credits, or refurbished exchanges while tracking environmental impact.
+
+Triple G helps consumers recycle electronics responsibly. Users submit gadgets for AI-powered valuation, earn reward points, swap for refurbished items, and learn about sustainable e-waste practices.
+
+## Pages
+
+- [Home](/): Overview of Triple G's e-waste rewards platform.
+- [About](/about): Mission, story, and team behind Triple G.
+- [Awareness Hub](/awareness): Articles, videos, and guides on responsible electronics recycling and e-waste education.
+- [Swap Center](/swap): Browse refurbished gadgets and parts available for points or cash.
+- [Pickup Map](/map): Find drop-off locations and schedule e-waste pickups.
+- [Submit a Gadget](/submit-gadget): Get an instant valuation for an old electronic device.

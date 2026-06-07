@@ -46,7 +46,7 @@ const Register = () => {
           <div className="w-16 h-16 bg-gradient-primary rounded-2xl flex items-center justify-center mb-4">
             <Leaf className="w-10 h-10 text-white" />
           </div>
-          <h1 className="text-3xl font-bold text-gradient-primary">Triple G</h1>
+          <h1 className="text-3xl font-bold text-gradient-primary">Triple G — Join the E-Waste Movement</h1>
           <p className="text-muted-foreground mt-2">Create your account</p>
         </div>
 
