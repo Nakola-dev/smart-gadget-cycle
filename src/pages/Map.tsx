@@ -54,6 +54,21 @@ const Map = () => {
     <div className="min-h-screen bg-gradient-subtle">
       <Navbar />
       
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            pickupLocations.map((l) => ({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              name: l.name,
+              address: l.address,
+              telephone: l.phone,
+              openingHours: l.hours,
+            }))
+          ),
+        }}
+      />
       <main className="container mx-auto px-4 pt-24 pb-16">
         <div className="max-w-6xl mx-auto">
           <div className="mb-12 animate-fade-in">
