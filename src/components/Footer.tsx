@@ -46,7 +46,7 @@ const FOOTER_SECTIONS = [
       { to: "/", label: "Home" },
       { to: "/submit-gadget", label: "Submit Gadget" },
       { to: "/swap", label: "Swap Center" },
-      { to: "/awareness", label: "Learn More" },
+      { to: "/awareness", label: "Explore Our Awareness Hub" },
     ],
   },
   {

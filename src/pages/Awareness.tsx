@@ -853,9 +853,22 @@ const AwarenessContent = () => {
               transition={{ delay: 0.3 }}
               className="mb-4"
             >
-              Learn. Act.{" "}
-              <span className="text-gradient-primary">Recycle.</span>
+              Electronics Recycling &amp;{" "}
+              <span className="text-gradient-primary">E-Waste Awareness Hub</span>
             </motion.h1>
+            <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                  "@context": "https://schema.org",
+                  "@type": "CollectionPage",
+                  name: "Electronics Recycling & E-Waste Awareness Hub",
+                  url: "https://tripleg.lovable.app/awareness",
+                  description:
+                    "Articles, videos, and guides on responsible electronics recycling and e-waste education.",
+                }),
+              }}
+            />
 
             <motion.p
               initial={{ opacity: 0, y: 20 }}
